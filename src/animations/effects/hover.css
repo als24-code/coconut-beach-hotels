@@ -1,0 +1,33 @@
+/* hover.css */
+
+.hover-scale {
+    transition: transform .3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.hover-lift {
+    transition: transform .3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-6px);
+}
+
+.hover-opacity {
+    transition: opacity .3s ease;
+}
+
+.hover-opacity:hover {
+    opacity: .7;
+}
+
+.hover-rotate {
+    transition: transform .3s ease;
+}
+
+.hover-rotate:hover {
+    transform: rotate(5deg);
+}
